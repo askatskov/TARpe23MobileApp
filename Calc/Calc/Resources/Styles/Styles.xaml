@@ -7,7 +7,7 @@
     <!--Content Page style-->
     <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
         <Setter Property="NavigationPage.HasNavigationBar" Value="False" />
-        <Setter Property="BackgroundColor" Value="{StaticResource PageBackgroundColor}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource PageBackroundColor}" />
     </Style>
 
     <Style TargetType="Grid">
