@@ -14,11 +14,12 @@ namespace Models
         public Color AccentColorStart { get; set; }
         public Color AccentColorEnd { get; set; }
         public List<string> Images { get; set; }
+
         public Brush Background
         {
             get
             {
-                var graidentStops = new GradientStopCollection();
+                var gradientStops = new GradientStopCollection();
                 gradientStops.Add(new GradientStop(AccentColorStart, 0.0f));
                 gradientStops.Add(new GradientStop(AccentColorEnd, 1.0f));
 
