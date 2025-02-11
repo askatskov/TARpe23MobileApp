@@ -11,8 +11,9 @@ namespace MauiPlanets
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Montserrat-Medium.ttf", "Regularfont");
+                    fonts.AddFont("Montserrat-Semibold.ttf", "Mediumfont");
+                    fonts.AddFont("Montserrat-Bold.ttf", "Boldfont");
                 });
 
 #if DEBUG
