@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Services
 {
-    public class PlanetsServices
+    public class PlanetsService
     {
         private static List<Planet> planets = new()
         {

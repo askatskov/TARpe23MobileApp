@@ -174,6 +174,38 @@
                         </Grid>                      
                         
                     </Border>
+
+                    <Label
+                        Style="{StaticResource PageSubHeaderStyle}"
+                        Margin="0,12,0,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Most Popular   "/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <CollectionView
+                        x:Name="lstPopularPlanets"
+                        HeightRequest="280"
+                        SelectionMode="Single"
+                        SelectionChanged="Planets_SelectionChanged">
+
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout
+                                Orientation="Horizontal"
+                                ItemSpacing="16"/>
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate
+                                x:DataType="models:Planet">
+                                
+                                
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                        
+                    </CollectionView>
                     
                 </VerticalStackLayout>
                 
