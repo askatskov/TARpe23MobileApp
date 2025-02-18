@@ -9,7 +9,7 @@ namespace Services
     {
         private static List<Planet> planets = new()
         {
-new()
+            new()
             {
                 Name = "Mercury",
                 Subtitle = "The smallest planet",
@@ -20,8 +20,8 @@ new()
                 Images = new()
                 {
                     "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/290px-Mercury_in_true_color.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Unmasking_the_Secrets_of_Mercury.jpg/220px-Unmasking_the_Secrets_of_Mercury.jpg"
                 }
             },
             new()
@@ -34,10 +34,9 @@ new()
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/290px-Venus_2_Approach_Image.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/PIA00084_Eistla_region_pancake_volcanoes.jpg/220px-PIA00084_Eistla_region_pancake_volcanoes.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/PIA00103_Venus_-_3-D_Perspective_View_of_Lavinia_Planitia.jpg/220px-PIA00103_Venus_-_3-D_Perspective_View_of_Lavinia_Planitia.jpg"
                 }
             },
             new()
@@ -50,9 +49,9 @@ new()
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
-                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Mysterious_Case_of_the_Disappearing_Dust.jpg/290px-The_Mysterious_Case_of_the_Disappearing_Dust.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Archean.png/500px-Archean.png"
                 }
             },
             new()
@@ -65,9 +64,9 @@ new()
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
-                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
-                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/290px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg/220px-PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png/260px-Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png"
                 }
             },
             new()
@@ -80,9 +79,9 @@ new()
                 AccentColorEnd = Color.FromArgb("#cd8026"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/290px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/PIA21641-Jupiter-SouthernStorms-JunoCam-20170525.jpg/160px-PIA21641-Jupiter-SouthernStorms-JunoCam-20170525.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/PIA21775.jpg/220px-PIA21775.jpg"
                 }
             },
             new()
@@ -95,10 +94,10 @@ new()
                 AccentColorEnd = Color.FromArgb("#c6502f"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/300px-Saturn_during_Equinox.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Saturn_Storm.jpg/220px-Saturn_Storm.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hubble_sees_a_flickering_light_display_on_Saturn.jpg/220px-Hubble_sees_a_flickering_light_display_on_Saturn.jpg"
+
                 }
             },
             new()
@@ -111,9 +110,9 @@ new()
                 AccentColorEnd = Color.FromArgb("#996237"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uranus_Voyager2_color_calibrated.png/290px-Uranus_Voyager2_color_calibrated.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Adding_to_Uranus%27s_legacy.tif/lossy-page1-220px-Adding_to_Uranus%27s_legacy.tif.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Uranus_Dark_spot.jpg/220px-Uranus_Dark_spot.jpg"
                 }
             },
             new()
@@ -126,13 +125,88 @@ new()
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Neptune_Voyager2_color_calibrated.png/290px-Neptune_Voyager2_color_calibrated.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/200px-Neptune_Full.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Neptune_storms.jpg/220px-Neptune_storms.jpg"
                 }
             },
-        };
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "The former ninth planet",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a dwarf planet in the Kuiper Belt. Once considered the ninth planet, it was reclassified in 2006. Pluto has a thin atmosphere and five known moons, with Charon being the largest.",
+                AccentColorStart = Color.FromArgb("#3b1e08"),
+                AccentColorEnd = Color.FromArgb("#c49a6c"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg/240px-Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/220px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-Charon-v2-200px.jpg/200px-Pluto-Charon-v2-200px.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "The most massive dwarf planet",
+                HeroImage = "eris.png",
+                Description = "Eris is the most massive known dwarf planet in the Solar System. It is located in the scattered disc region and has one known moon, Dysnomia. Eris was a key reason for Pluto’s reclassification.",
+                AccentColorStart = Color.FromArgb("#4c4c4c"),
+                AccentColorEnd = Color.FromArgb("#a9a9a9"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Eris_and_dysnomia2.jpg/240px-Eris_and_dysnomia2.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Eris_artistic_illustration.jpg/200px-Eris_artistic_illustration.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eris_and_dysnomia.jpg/220px-Eris_and_dysnomia.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "The fast-spinning dwarf planet",
+                HeroImage = "haumea.png",
+                Description = "Haumea is a dwarf planet located in the Kuiper Belt. It has a unique elongated shape due to its rapid rotation. Haumea has two known moons and a faint ring system.",
+                AccentColorStart = Color.FromArgb("#5a3e3e"),
+                AccentColorEnd = Color.FromArgb("#c2a385"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Haumea_with_rings.png/240px-Haumea_with_rings.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Haumea_-_artist_impression.jpg/200px-Haumea_-_artist_impression.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Haumea_spinning_model.png/220px-Haumea_spinning_model.png"
+                }
+            },
+            new()
+            {
+                Name = "Makemake",
+                Subtitle = "The reddish dwarf planet",
+                HeroImage = "makemake.png",
+                Description = "Makemake is a dwarf planet in the Kuiper Belt and the second-brightest object in that region after Pluto. It has a reddish hue and a single known moon named MK2.",
+                AccentColorStart = Color.FromArgb("#6b2d0f"),
+                AccentColorEnd = Color.FromArgb("#d6a06c"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Makemake_and_moon.jpg/240px-Makemake_and_moon.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Makemake_illustration.jpg/200px-Makemake_illustration.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Makemake_surface_concept.jpg/220px-Makemake_surface_concept.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "The dwarf planet in the asteroid belt",
+                HeroImage = "ceres.png",
+                Description = "Ceres is the only dwarf planet located in the asteroid belt between Mars and Jupiter. It is the largest object in the belt and has bright spots believed to be salt deposits.",
+                AccentColorStart = Color.FromArgb("#4e4e4e"),
+                AccentColorEnd = Color.FromArgb("#a8a8a8"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ceres_RC3_final_rotation_movie.gif/240px-Ceres_RC3_final_rotation_movie.gif",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ceres_-_RC3_-_Haulani_Crater_%28crop%29.jpg/200px-Ceres_-_RC3_-_Haulani_Crater_%28crop%29.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ceres_Jan2015.jpg/220px-Ceres_Jan2015.jpg"
+                }
+            },
 
+        };
         public static List<Planet> GetFeaturedPlanets()
         {
             var random = new Random();
@@ -145,6 +219,5 @@ new()
         }
         public static List<Planet> GetAllPlanets()
             => planets;
-
     }
 }
