@@ -140,10 +140,10 @@ namespace Services
                 AccentColorEnd = Color.FromArgb("#c49a6c"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg/240px-Nh-pluto-in-true-color_2x_JPEG-edit-frame.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/220px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-Charon-v2-200px.jpg/200px-Pluto-Charon-v2-200px.jpg"
-                }
+					"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1200px-Pluto_in_True_Color_-_High-Res.jpg",
+					"https://www.iau.org/static/archives/images/screen/iau0601a.jpg",
+					"https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg"
+				}
             },
             new()
             {
@@ -155,10 +155,10 @@ namespace Services
                 AccentColorEnd = Color.FromArgb("#a9a9a9"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Eris_and_dysnomia2.jpg/240px-Eris_and_dysnomia2.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Eris_artistic_illustration.jpg/200px-Eris_artistic_illustration.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eris_and_dysnomia.jpg/220px-Eris_and_dysnomia.jpg"
-                }
+					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG6gj2_jvLR_vafhxvRxJMZvvR3EEo1a6Ufg&s",
+					"https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1f24a5d7e143ef1d68416edb76a51ec065c1019c/eris_th.jpg?disposition=inline",
+					"https://theplanets.org/123/2021/10/Eris-Facts.png"
+				}
             },
             new()
             {
@@ -170,10 +170,10 @@ namespace Services
                 AccentColorEnd = Color.FromArgb("#c2a385"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Haumea_with_rings.png/240px-Haumea_with_rings.png",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Haumea_-_artist_impression.jpg/200px-Haumea_-_artist_impression.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Haumea_spinning_model.png/220px-Haumea_spinning_model.png"
-                }
+					"https://science.nasa.gov/wp-content/uploads/2023/07/haumea-480x320-1-jpg.webp?w=320",
+					"https://c02.purpledshub.com/uploads/sites/48/2024/01/dwarf-planet-haumea.jpg?w=1029&webp=1",
+					"https://www.solarsystemscope.com/spacepedia/images/handbook/renders/haumea.png"
+				}
             },
             new()
             {
@@ -185,10 +185,10 @@ namespace Services
                 AccentColorEnd = Color.FromArgb("#d6a06c"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Makemake_and_moon.jpg/240px-Makemake_and_moon.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Makemake_illustration.jpg/200px-Makemake_illustration.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Makemake_surface_concept.jpg/220px-Makemake_surface_concept.jpg"
-                }
+					"https://cdn.eso.org/images/screen/eso1246a.jpg",
+					"https://science.nasa.gov/wp-content/uploads/2023/04/makemakemoon100mile-jpg.webp?w=2000",
+					"https://cdn.mos.cms.futurecdn.net/8QBGiy9BhmttKdGeAAZpn8.jpg"
+				}
             },
             new()
             {
@@ -200,10 +200,10 @@ namespace Services
                 AccentColorEnd = Color.FromArgb("#a8a8a8"),
                 Images = new()
                 {
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ceres_RC3_final_rotation_movie.gif/240px-Ceres_RC3_final_rotation_movie.gif",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ceres_-_RC3_-_Haulani_Crater_%28crop%29.jpg/200px-Ceres_-_RC3_-_Haulani_Crater_%28crop%29.jpg",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ceres_Jan2015.jpg/220px-Ceres_Jan2015.jpg"
-                }
+					"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/640px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+					"https://cdn.mos.cms.futurecdn.net/qnft8kRfeGWWLgaygo4fb9.jpg",
+					"https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUZsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ca667488ed16597e35eaab71acd42034ca4f56c2/PIA20180-16-640x350.jpg"
+				}
             },
 
         };
